@@ -1,0 +1,162 @@
+body{
+  background: linear-gradient(115deg,#ecc884,#d48baa);
+  
+}
+
+.flex-container {
+  display: flex;
+  margin: 90px;
+
+  /* border: hidden 2px black;  */
+  /* border-radius: 45px/45px; */
+
+   
+  /* background-color:yellow ; */
+  
+   
+}
+.flex-container > div{
+  margin: auto;
+
+}
+.box1{
+  width: 320px;
+  height: 400px;
+  background-color: #dba24c;
+  /* padding: 50px; */
+  margin: 0 auto;
+  padding: 50px;
+  /* border-radius: 10px/0px ; */}
+.header .box1{
+  font-style:italic;
+  font-size: 5px;
+}
+
+h1 .box1{
+  font-size: xx-large;
+}
+.footer .box1{
+  text-align: left;
+  font-size: xx-small;
+  font-style:italic;
+  color: black;
+  /* font-weight: 300; */
+}
+.box1 img{
+  width: 300px;
+  height: 190px;
+}
+.box2{
+  width: 570px;
+  height: 400px; 
+  background-color: whitesmoke;
+  padding: 50px;
+  /* border-radius: 10px; */
+}
+/* .box2 .row{
+  display: flex;
+  flex-direction: column;
+
+} */
+header h2{
+  font-size: small;
+  font-weight: normal;
+  /* text-align: top right; */
+  padding-left: 420px;
+  /* margin-top: -3%; */
+}
+.label .box2{
+  /* padding: 200px; */
+  width: 150px;
+  display: inline-block;
+}
+form  .col25 {
+  /* float: right; */
+  display: inline-flex;
+}
+/* .col25 .fname{
+  display: inline; */
+
+.box2 h1{
+  padding-left: 160px;
+  margin-top: -5%;
+}
+
+.box2 footer{
+  font-size: smaller;
+}
+.Signing{
+  display:inline-flex;
+  margin-left: 100px;
+}
+.Signing h3{
+  background-color: blue;
+  height: 30px;
+  margin-bottom: 0%;
+  border-radius: 3px;}
+
+.line{
+padding-top: -50%;
+padding-left: 129px;
+width: 7%; 
+}
+  
+
+.Icon{
+  display: inline-flex;
+  /* margin: right 29%; */
+  height: 30px;
+  margin-left: 40px;
+  margin-top: auto;
+}
+.fa-facebook{
+  background-color:  rgb(152, 157, 161);
+  text-decoration: none;
+  font-size: xx-large;
+  padding: 11px;
+  margin-right: 40%;
+  border-radius: 3px;
+  /* width: 11px; */
+
+}
+.fa-twitter{
+  background-color: rgb(152, 157, 161);
+  font-size:xx-large;
+  /* padding-right: 40%; */
+  padding: 11px;
+  border-radius: 3px;
+
+}
+.col25b{
+  margin-left: 120%;
+}
+.row1{
+  margin-left: 18%;
+  height: 120%;
+}
+.row0{
+  margin-left: 18%;
+  height: 120%;
+}
+.row2{
+  margin-left: 18%;
+  height: 120%;
+}
+label{
+    margin-left: 18%;
+    font-size:small;
+}
+button{
+  position: relative;
+  background-color: #da397c;
+  /* margin: left 3%; */
+  top: 42px;
+  left: -210px;
+  /* margin  */
+}
+.box2 footer{
+  position: relative;
+  font-size: x-small;
+  top: 60px;
+  left: 95px;
+}
